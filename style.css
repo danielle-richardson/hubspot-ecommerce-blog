@@ -19,19 +19,6 @@
     color: #ff523b;
 }
 
-/* Footer */
-footer {
-    background-color: #222;
-}
-
-footer a {
-    color: #ddd; /* Links color */
-}
-
-footer a:hover {
-    color: #ff523b; /* Links hover color */
-}
-
 /* Media queries for responsive adjustments */
 @media (max-width: 768px) {
     .banner-image {
