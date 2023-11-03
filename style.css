@@ -1,123 +1,40 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Navigation */
+.navbar-collapse .navbar-nav .nav-item a:hover {
+    color: #ff523b;
 }
 
-body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+/* Banner */
+.banner-image {
+    background: url('img/banner.jpg') no-repeat center center / cover;
+    min-height: 600px;
 }
 
-.container{
-    margin: auto;
+/* Feature Products Card */
+.card-title a {
+    color: #333; 
+    text-decoration: none; 
 }
 
-/** Navgation **/ 
-.navbar{
-    display: flex;
-    align-items: center;
-    padding: 0px 20px;
+.card-title a:hover {
+    color: #ff523b;
 }
 
-nav{
-    flex: 1;
-    text-align: center;
+/* Footer */
+footer {
+    background-color: #222;
 }
 
-nav ul{
-    display: inline-block;
+footer a {
+    color: #ddd; /* Links color */
 }
 
-nav ul li{
-    display: inline-block;
-    margin-right: 20px;
+footer a:hover {
+    color: #ff523b; /* Links hover color */
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
-
-/** Banner **/
-.row {
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap; 
-}
-
-.col-2 {
-    flex-basis: 50%;
-    min-width: 300px;
-}
-
-.col-2.image {
-    background: linear-gradient(to right, #fff, transparent), url("img/banner.jpg") no-repeat;
-    background-size: cover; 
-    height: 500px;
-    
-}
-
-.col-2.text {
-    padding: 50px;
-    box-sizing: border-box;
-}
-
-.col-2 h1 {
-    font-size: 50px;
-    line-height: 60px;
-    margin: 25px 0;
-}
-
-.btn{
-    display: inline-block;
-    background: #ff5c35;
-    color: #fff;
-    padding: 8px 30px;
-    margin: 30px 0;
-    border-radius: 30px;
-    transition: background 0.5s;
-}
-.btn:hover{
-    background: #ffa766;
-}
-
-/** Featured Products **/ 
-
-.title{
-    text-align: center;
-    margin: 0px auto 30px;
-    position: relative;
-    line-height: 60px;
-    color: #555;
-}
-.title::after{
-    content: '';
-    background: #ff523b;
-    width: 80px;
-    height: 5px;
-    border-radius: 5px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.col-4{
-    flex-basis: 25%;
-    padding: 10px;
-    min-width: 200px;
-    margin-bottom: 50px;
-    transition: transform 0.5s;
-}
-
-.col-4 img{
-    width: 100%;
-}
-
-.col-4 p{
-    font-size: 14px;
-}
-
-.col-4:hover{
-    transform: translateY(-5px);
+/* Media queries for responsive adjustments */
+@media (max-width: 768px) {
+    .banner-image {
+        min-height: 300px; /* Adjust banner image for smaller devices */
+    }
 }
