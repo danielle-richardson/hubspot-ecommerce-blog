@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>CoolGadgets | Products</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+
+    <title>CoolGadgets | Ecommerce Website</title>
 </head>
 
 <body>
     <header class="bg-light">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="/">
                     <img src="img/logo.png" alt="CoolGadgets Logo" width="120">
                 </a>
                 <div class="collapse navbar-collapse">
@@ -36,8 +38,14 @@
                 <div class="card h-100">
                     <img src="img/product-1.jpg" class="card-img-top" alt="Virtual Reality Glasses">
                     <div class="card-body">
-                        <h5 class="card-title"><a href="product-details.html">Virtual Reality Glasses</a></h5>
+                        <h5 class="card-title">Virtual Reality Glasses</h5>
                         <p class="card-text">$299.00</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="Virtual Reality Glasses">
+                            <input type="hidden" name="price" value="299.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                        </form>
                     </div>
                 </div>
             </div>
@@ -46,8 +54,14 @@
                 <div class="card h-100">
                     <img src="img/product-2.jpg" class="card-img-top" alt="Facial Recognition Home Hub">
                     <div class="card-body">
-                        <h5 class="card-title"><a href="product-details.html">Facial Recognition Home Hub</a></h5>
+                        <h5 class="card-title">Facial Recognition Home Hub</h5>
                         <p class="card-text">$149.00</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="Facial Recognition Home Hub">
+                            <input type="hidden" name="price" value="149.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                        </form>
                     </div>
                 </div>
             </div>
@@ -56,8 +70,14 @@
                 <div class="card h-100">
                     <img src="img/product-3.jpg" class="card-img-top" alt="3D Printing Pen">
                     <div class="card-body">
-                        <h5 class="card-title"><a href="product-details.html">3D Printing Pen</a></h5>
+                        <h5 class="card-title">3D Printing Pen</h5>
                         <p class="card-text">$45.00</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="3D Printing Pen">
+                            <input type="hidden" name="price" value="$45.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                        </form>
                     </div>
                 </div>
             </div>
@@ -66,8 +86,14 @@
                 <div class="card h-100">
                     <img src="img/product-4.jpg" class="card-img-top" alt="Delivery Drone">
                     <div class="card-body">
-                        <h5 class="card-title"><a href="product-details.html">Delivery Drone</a></h5>
+                        <h5 class="card-title">Delivery Drone</h5>
                         <p class="card-text">$199.00</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="Facial Recognition Home Hub">
+                            <input type="hidden" name="price" value="$199.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                        </form>
                     </div>
                 </div>
             </div>
@@ -77,8 +103,14 @@
                 <div class="card h-100">
                     <img src="img/new-product.jpg" class="card-img-top" alt="Smart Ring">
                     <div class="card-body">
-                        <h5 class="card-title"><a href="product-details.html">Smart Ring</a></h5>
+                        <h5 class="card-title">Smart Ring</h5>
                         <p class="card-text">$299.00</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="Smart Ring">
+                            <input type="hidden" name="price" value="199.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                        </form>
                     </div>
                 </div>
             </div>

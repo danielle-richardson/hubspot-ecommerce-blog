@@ -19,6 +19,10 @@
     color: #ff523b;
 }
 
+.cart-item {
+    margin-bottom: 1rem;
+}
+
 /* Media queries for responsive adjustments */
 @media (max-width: 768px) {
     .banner-image {
