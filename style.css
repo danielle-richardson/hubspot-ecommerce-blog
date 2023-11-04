@@ -3,6 +3,10 @@
     color: #ff523b;
 }
 
+.cart-item {
+    margin-bottom: 1rem;
+}
+
 /* Banner */
 .banner-image {
     background: url('img/banner.jpg') no-repeat center center / cover;
@@ -13,14 +17,6 @@
 .card-title a {
     color: #333; 
     text-decoration: none; 
-}
-
-.card-title a:hover {
-    color: #ff523b;
-}
-
-.cart-item {
-    margin-bottom: 1rem;
 }
 
 /* Media queries for responsive adjustments */
